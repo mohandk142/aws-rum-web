@@ -8,6 +8,7 @@ module.exports = merge(common, {
     devtool: 'inline-source-map',
     entry: {
         rum_javascript_telemetry: './src/index-browser.ts',
+        loader_checkout: './src/loader/loader-checkout.js',
         loader_standard: './src/loader/loader-standard.js',
         loader_page_event: './src/loader/loader-page-event.js',
         loader_dom_event: './src/loader/loader-dom-event.js',
